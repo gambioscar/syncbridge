@@ -1,0 +1,20 @@
+{
+  "name": "gambioscar/syncbridge",
+  "description": "Public API and automation reliability demo with signed webhooks, retries and audit trail.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SyncBridge\\": "app/"
+    }
+  },
+  "scripts": {
+    "test": "php tests/run.php"
+  }
+}
